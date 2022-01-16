@@ -1,0 +1,80 @@
+.outer {
+    background-color: rgb(18, 18, 35);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-left-1 {
+    width: 480px;
+    height: 700px;
+    position: relative;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-left-2 {
+    position: absolute;
+    top: 130px;
+    background-color: black;
+    width: 450px;
+    height: 450px;
+    transform: translate(0, 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-left-3 {
+    background-color: grey;
+    width: 95%;
+    height: 95%;
+}
+
+.box-left-4 {
+    background-color: rgb(43, 255, 0);
+    width: 80%;
+    transform: translate(0, 50px);
+    height: 30%;
+}
+
+.box-right-1 { 
+    width: 480px;
+    height: 1100px;
+    position: relative;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right-2 {
+    position: absolute;
+    top: 50px;
+    width: 450px;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right-3 {
+    background-color: darkgray;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot {
+    width: 90%;
+    height: 5%;
+    background-color: rgb(56, 56, 56);
+    margin-top: 1%;
+}
+ 

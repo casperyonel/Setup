@@ -1,0 +1,27 @@
+.external-nav-element {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+#logo {
+    height: 72px;
+}
+
+.bg {
+    height: 95px;
+    width: 100vw;
+    position: inherit;
+    background-color: rgb(18, 18, 35);
+}
+
+.y {
+    background-color: rgb(18, 18, 35);
+    height: 100vh;
+   
+}
